@@ -40,7 +40,7 @@ class Image(models.Model):
     imageDescription = models.CharField(max_length=30)
     imageLocation = models.ForeignKey(Location,on_delete = models.CASCADE)
     imageCategory = models.ForeignKey(Category,on_delete = models.CASCADE)
-    picture = CloudinaryField('images')
+    image = CloudinaryField('images')
 
     def saveImage(self):
         self.save()
