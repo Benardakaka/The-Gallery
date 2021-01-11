@@ -1,6 +1,6 @@
 # The-Gallery
 #
-#### Author: [Dorcas Toto](https://github.com/Benardakaka)
+#### Author: [Benard Akaka](https://github.com/Benardakaka)
 
 
 ## Description
