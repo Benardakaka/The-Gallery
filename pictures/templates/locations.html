@@ -53,7 +53,8 @@
                                         <div class="col-sm">Description: {{location.imageDescription}}</div>
                                         <div class="col-sm">Location: {{location.imageLocation}}</div>
                                     </div>
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button class="btn btn-success btn-sm" onclick="copyLink('{{image.id}}.url')">Copy</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
